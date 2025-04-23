@@ -237,8 +237,8 @@ html{
 .btn:before,
 .btn:after{
     content: '';
-    border-top: 2px solid #ff9d00;
-    border-left: 2px solid #ff9d00;
+    border-top: 1px solid #ff9d00;
+    border-left: 1px solid #ff9d00;
     position: absolute;
     top: -6px;
     left: -6px;
