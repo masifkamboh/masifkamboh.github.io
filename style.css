@@ -277,9 +277,9 @@ html{
   /* btn css */
 
 @media (max-width: 991.98px) {
-	html {
-		font-size: 13px;
-	}
+    html {
+        font-size: 13px;
+    }
 
     .header_title p br{
         display: none;
@@ -291,12 +291,12 @@ html{
 
 }
 @media (max-width: 767.98px) {
-	html {
-		font-size: 12px;
-	}
-	.hidden-xs {
-		display: none!important;
-	}
+    html {
+        font-size: 12px;
+    }
+    .hidden-xs {
+        display: none!important;
+    }
 
     .btn_area {
         display: flex;
@@ -342,6 +342,7 @@ html{
   .mt-50
   {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
 
@@ -419,4 +420,47 @@ html{
     font-size: 25px;
 }
 
+.float {
+     position: fixed; 
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 10px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
 
+.float1 {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    right: 10px;
+    background-color: #ff9d00;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin:auto;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-phone:before {
+    content: "\f095";
+}
+.my-float {
+    margin-top: 16px;
+}
